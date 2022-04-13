@@ -1,0 +1,21 @@
+.entire-page{
+    display: flex;
+}
+
+.left-part{
+    background-color: red;
+    height: 100vh;
+    flex-basis: 25%;
+}
+
+.center-part{
+    background-color: blue;
+    height: 100vh;
+    flex-basis: 45%;
+}
+
+.right-part{
+    background-color: yellow;
+    height: 100vh;
+    flex-basis: 30%;
+}
