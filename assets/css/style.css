@@ -1,5 +1,7 @@
 :root{
-    --background: #FFFFFF;
+    --backGroundLight: #FFFFFF;
+    --backGroundDark: #000000;
+    --fontColorDark: #E6E9EA;
     --brandColor: #1C9BEF;
     --thinBlue: #9ACDF8;
     --fontColor: #0F141A;
@@ -8,10 +10,11 @@
 
 .entire-page{
     display: flex;
+    background-color: var(--backGroundDark);
 }
 
 .left-part{
-    /* background-color: red; */
+    /* background-color: var(--brandColor); */
     height: 100vh;
     flex-basis: 25%;
 }
@@ -22,8 +25,8 @@
     flex-basis: 45%;
     overflow: scroll;
     height: 200vh;
-    border-left: 1px solid #EFF3F4;
-    border-right: 1px solid #EFF3F4;
+    border-left: 1px solid #2F3336;
+    border-right: 1px solid #2F3336;
 }
 
 .right-part{
