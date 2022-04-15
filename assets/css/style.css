@@ -17,7 +17,7 @@
     /* background-color: var(--brandColor); */
     height: 100vh;
     flex-basis: 25%;
-    color: white;
+    color: var(--fontColorDark);
 }
 
 .center-part{
@@ -36,3 +36,4 @@
     flex-basis: 30%;
     color: white;
 }
+
