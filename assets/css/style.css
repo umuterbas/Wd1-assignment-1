@@ -11,6 +11,7 @@
 .entire-page{
     display: flex;
     background-color: var(--backGroundDark);
+    color: var(--fontColorDark);
 }
 
 .left-part{
