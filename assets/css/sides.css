@@ -2,24 +2,61 @@
     margin-left: 35%;
 }
 
-.logo-left-top {
-    height: 45px;
-    
+.left-menu-logo {
+    display: flex;
+    padding: 12px 5px;
 }
 
-.fa-brands, .fa-solid, .tweet-button {
+.fa-brands,
+.fa-solid,
+.tweet-button {
     margin: 6%;
+}
+
+.left-menu {
+    display: flex;
+    padding: 12px 5px;
+}
+
+.left-hover {
+
+    display: flex;
+
+}
+
+.left-hover:hover {
+
+    background-color: rgb(56, 45, 45);
+    border-radius: 35px
+}
+
+.left-menu-icon {
+
+    display: flex;
+    width: 40px;
+    padding: 3px 5px 3px 10px;
+
+}
+
+.left-menu-button {
+    padding: 8px 10px 8px 30px;
+
 }
 
 .tweet-button {
     background-color: var(--brandColor);
-    width: 160px;
+    width: 80%;
     height: 50px;
     border-radius: 35px;
     display: flex;
     justify-content: center;
     padding-top: 12px;
 
+}
+
+.tweet-button:hover {
+    background-color: #0d97f3;
+    ;
 }
 
 .profile-icon-u {
@@ -31,16 +68,49 @@
     padding-top: 8px;
     bottom: 2%;
     position: absolute;
-    
+
 }
 
 .left-bottom-profile {
     display: flex;
     bottom: 2%;
     position: absolute;
-    
+    padding: 0 10px 0 10px;
+
 }
 
 .left-bottom-profile-right-side {
     margin-left: 50px;
+
+}
+
+.left-bottom-profile:hover {
+    background-color: rgb(56, 45, 45);
+    border-radius: 30px;
+
+}
+
+.search-bar {
+    margin: auto;
+    margin-top: 3%;
+    width: 85%;
+}
+
+.search-bar-inside {
+    background-color: rgb(46, 44, 44);
+    width: 80%;
+    height: 50px;
+    border-radius: 100px;
+    padding-left: 45px;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 1;
+    top: -58px;
+    right: 300px;
+}
+
+.search-bar-text {
+    display: none;
 }
