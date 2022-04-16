@@ -18,6 +18,7 @@
     /* background-color: var(--brandColor); */
     height: 100vh;
     flex-basis: 25%;
+    color: var(--fontColorDark);
 }
 
 .center-part{
@@ -34,4 +35,6 @@
     /* background-color: yellow; */
     height: 100vh;
     flex-basis: 30%;
+    color: white;
 }
+
