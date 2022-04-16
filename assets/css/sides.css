@@ -111,8 +111,8 @@
 .search-icon {
     position: absolute;
     z-index: 1;
-    top: -58px;
-    right: 300px;
+    top: 4%;
+    padding-left: 1%;
 }
 
 .right-commercials {
