@@ -21,29 +21,23 @@
 }
 
 .left-hover {
-
     display: flex;
-
 }
 
 .left-hover:hover {
-
     background-color: rgb(56, 45, 45);
     border-radius: 35px
 }
 
 .left-menu-icon {
-
     display: flex;
     width: 40px;
     padding: 3px 5px 3px 10px;
-
 }
 
 .left-menu-button {
     padding: 8px 10px 8px 30px;
     cursor: pointer;
-
 }
 
 .tweet-button {
@@ -54,12 +48,10 @@
     display: flex;
     justify-content: center;
     padding-top: 12px;
-
 }
 
 .tweet-button:hover {
     background-color: #0d97f3;
-    ;
 }
 
 .profile-icon-u {
@@ -71,16 +63,14 @@
     padding-top: 8px;
     bottom: 2%;
     position: absolute;
-
 }
 
 .left-bottom-profile {
     display: flex;
     bottom: 2%;
     position: absolute;
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
     cursor: pointer;
-
 }
 
 .left-bottom-profile-right-side {
@@ -91,13 +81,13 @@
 .left-bottom-profile:hover {
     background-color: rgb(56, 45, 45);
     border-radius: 30px;
-
 }
 
 .search-bar {
     margin: auto;
     margin-top: 3%;
     width: 85%;
+    position: relative;
 }
 
 .search-bar-inside {
@@ -111,7 +101,8 @@
 .search-icon {
     position: absolute;
     z-index: 1;
-    top: 4%;
+    top: 34%;
+    left: 4%;
     padding-left: 1%;
 }
 
@@ -120,22 +111,22 @@
     width: 67%;
     height: 340px;
     border-radius: 15px;
-    padding-left: 30px;
     padding-top: 10px;
     margin-left: 8%;
     margin-top: 5%;
 }
 
 .commercials {
-    padding: 4px 0 4px 0;
-
+    padding: 4px 0;
+    width: 90%;
+    margin: 0 auto;
 }
 .music-commercial {
     display: flex;
 }
 
 .commercials:hover {
-    background-color: rgb(156, 147, 147);
+    background-color: rgb(57, 56, 56);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -151,6 +142,38 @@
     border-radius: 15px;
 }
 
+.show-more{
+    padding: 1em 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    color: var(--brandColor);
+}
 
+.show-more:hover{
+    background-color: rgb(57, 56, 56);
+}
 
+footer{
+    width: 58%;
+    margin-left: 8%;
+    padding-top: 1.5em;
+}
 
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3em;
+}
+
+.footer-list > li{
+    font-size: 11px;
+    line-height: 16px;
+    color: #71767b;
+}
+
+.footer-list > li > a:hover{
+    border-bottom: 1px solid;
+}
