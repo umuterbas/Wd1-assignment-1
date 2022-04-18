@@ -118,12 +118,37 @@
 .right-commercials {
     background-color: rgb(46, 44, 44);
     width: 67%;
-    height: 400px;
+    height: 340px;
     border-radius: 15px;
     padding-left: 30px;
     padding-top: 10px;
     margin-left: 8%;
     margin-top: 5%;
+}
+
+.commercials {
+    padding: 4px 0 4px 0;
+
+}
+.music-commercial {
+    display: flex;
+}
+
+.commercials:hover {
+    background-color: rgb(156, 147, 147);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.grey-headings-commercials {
+    font-size: 12px;
+    color: grey
+}
+
+.music-pic {
+    width: 75px;
+    margin-right: 10px;
+    border-radius: 15px;
 }
 
 
