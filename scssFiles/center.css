@@ -1,0 +1,228 @@
+.center-part__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 44%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #000000;
+}
+
+.center-part__header > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 1em;
+  cursor: pointer;
+}
+
+.center-part__header > i {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.5em;
+}
+
+.center-part__header > i:hover {
+  background-color: #181919;
+}
+
+.center-part__form {
+  height: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+
+.center-part__form > .form-userIcon {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  text-align: center;
+  margin-top: 0.8em;
+}
+
+.center-part__form > .form-input {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+}
+
+.center-part__form > .form-input .form-sentence {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60%;
+  border-bottom: 1px solid #2F3336;
+}
+
+.center-part__form > .form-input .form-sentence input {
+  height: 2.5em;
+}
+
+.center-part__form > .form-input .form-sentence .reply-preference {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1C9BEF;
+  cursor: pointer;
+}
+
+.center-part__form > .form-input > .form-icons {
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center-part__form > .form-input > .form-icons .form-attachmentIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 45%;
+  cursor: pointer;
+  color: #1C9BEF;
+}
+
+.center-part__form > .form-input > .form-icons .form-attachmentIcon .disable {
+  opacity: .5;
+}
+
+.center-part__form > .form-input > .form-icons .tweet-btn {
+  background-color: #9ACDF8;
+  border-radius: 25px;
+  padding: .5em 1em;
+  cursor: pointer;
+}
+
+.center-part__showTweets {
+  padding: 1em 0;
+  border-top: 1px solid #2F3336;
+  border-bottom: 1px solid #2F3336;
+  text-align: center;
+  color: #1C9BEF;
+  cursor: pointer;
+}
+
+.center-part__TweetBody {
+  border-bottom: 1px solid #2F3336;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 1.8em;
+  cursor: pointer;
+}
+
+.center-part__TweetBody .tweetBody-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.center-part__TweetBody .tweetBody-top > .user-icon {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.center-part__TweetBody .tweetBody-top > .user-icon:hover {
+  opacity: .5;
+}
+
+.center-part__TweetBody .tweetBody-top > .user-info {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+}
+
+.center-part__TweetBody .tweetBody-top > .user-info .account {
+  color: #686D70;
+}
+
+.center-part__TweetBody .tweetBody-top > .ellipsis {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.tweetBody-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3em;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.tweetBody-middle > .tweet-sentence {
+  text-align: left;
+  line-height: 1.7em;
+}
+
+.bottom-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bottom-icons > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: .8em;
+}
+
+.bottom-icons > .reply:hover {
+  color: #1C9BEF;
+}
+
+.bottom-icons .retweet:hover {
+  color: #00BA7C;
+}
+
+.bottom-icons .like:hover {
+  color: #F9197F;
+}
+
+.bottom-icons .share:hover {
+  color: #1C9BEF;
+}
+/*# sourceMappingURL=center.css.map */
