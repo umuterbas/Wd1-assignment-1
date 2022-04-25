@@ -1,0 +1,154 @@
+.left-side-items {
+  margin-left: 35%;
+}
+.left-side-items .left-menu-logo {
+  display: flex;
+  padding: 12px 5px;
+  cursor: pointer;
+}
+
+.fa-brandsr,
+.faumt,
+.tweet-button {
+  margin: 6%;
+  cursor: pointer;
+}
+
+.left-menu {
+  display: flex;
+  padding: 12px 5px;
+}
+.left-menu .left-hover {
+  display: flex;
+}
+.left-menu .left-hover .left-menu-button {
+  padding: 8px 10px 8px 30px;
+  cursor: pointer;
+}
+.left-menu .left-hover .left-menu-icon {
+  display: flex;
+  width: 40px;
+  padding: 3px 5px 3px 10px;
+}
+.left-menu .left-hover:hover {
+  background-color: rgb(46, 44, 44);
+  border-radius: 35px;
+}
+
+.tweet-button {
+  background-color: var(--brandColor);
+  width: 80%;
+  height: 50px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+.tweet-button:hover {
+  background-color: #0d97f3;
+}
+
+.left-bottom-profile {
+  display: flex;
+  bottom: 2%;
+  position: absolute;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.left-bottom-profile:hover {
+  background-color: rgb(46, 44, 44);
+  border-radius: 30px;
+}
+.left-bottom-profile .profile-icon-u {
+  background-color: #7E57C2;
+  height: 39px;
+  width: 39px;
+  border-radius: 39px;
+  text-align: center;
+  padding-top: 8px;
+  bottom: 2%;
+  position: absolute;
+}
+.left-bottom-profile .left-bottom-profile-right-side {
+  margin-left: 50px;
+}
+
+.search-bar {
+  margin: auto;
+  margin-top: 3%;
+  width: 85%;
+  position: relative;
+}
+.search-bar .search-icon {
+  position: absolute;
+  z-index: 1;
+  top: 34%;
+  left: 4%;
+  padding-left: 1%;
+}
+.search-bar .search-bar-inside {
+  background-color: rgb(46, 44, 44);
+  width: 80%;
+  height: 50px;
+  border-radius: 100px;
+  padding-left: 45px;
+}
+
+.right-commercials {
+  background-color: rgb(46, 44, 44);
+  width: 67%;
+  height: 340px;
+  border-radius: 15px;
+  padding-top: 10px;
+  margin-left: 8%;
+  margin-top: 5%;
+}
+.right-commercials .commercials {
+  padding: 4px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.right-commercials .commercials:hover {
+  background-color: #7c7777;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.right-commercials .commercials .grey-headings-commercials {
+  font-size: 12px;
+  color: grey;
+}
+.right-commercials .commercials .music-commercial {
+  display: flex;
+}
+.right-commercials .commercials .music-commercial .music-pic {
+  width: 75px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.show-more {
+  padding: 1em 0;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  width: 90%;
+  margin: 0 auto;
+  color: var(--brandColor);
+}
+.show-more:hover {
+  background-color: rgb(46, 44, 44);
+}
+
+footer {
+  width: 58%;
+  margin-left: 8%;
+  padding-top: 1.5em;
+}
+footer .footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+footer .footer-list .footer-list > li > a:hover {
+  border-bottom: 1px solid;
+}/*# sourceMappingURL=sass-u.css.map */

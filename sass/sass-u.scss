@@ -1,0 +1,188 @@
+@use 'variables';
+
+$commercials-hover-color: rgb(46, 44, 44);
+$tweet-button-bg-color: #0d97f3;
+$profile-icon-u-bg-color: #7E57C2;
+
+
+.left-side-items {
+    margin-left: 35%;
+
+    .left-menu-logo {
+        display: flex;
+        padding: 12px 5px;
+        cursor: pointer;
+    }
+}
+
+.fa-brandsr,
+.faumt,
+.tweet-button {
+    margin: 6%;
+    cursor: pointer;
+}
+
+.left-menu {
+    display: flex;
+    padding: 12px 5px;
+
+    .left-hover {
+        display: flex;
+
+        .left-menu-button {
+            padding: 8px 10px 8px 30px;
+            cursor: pointer;
+        }
+
+        .left-menu-icon {
+            display: flex;
+            width: 40px;
+            padding: 3px 5px 3px 10px;
+        }
+
+        &:hover {
+            background-color: $commercials-hover-color;
+            border-radius: 35px
+        }
+    }
+
+}
+
+
+.tweet-button {
+    background-color: var(--brandColor);
+    width: 80%;
+    height: 50px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+
+    &:hover {
+        background-color: $tweet-button-bg-color;
+    }
+}
+
+.left-bottom-profile {
+    display: flex;
+    bottom: 2%;
+    position: absolute;
+    padding: 0 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $commercials-hover-color;
+        border-radius: 30px;
+    }
+
+    .profile-icon-u {
+        background-color: $profile-icon-u-bg-color;
+        height: 39px;
+        width: 39px;
+        border-radius: 39px;
+        text-align: center;
+        padding-top: 8px;
+        bottom: 2%;
+        position: absolute;
+    }
+
+    .left-bottom-profile-right-side {
+        margin-left: 50px;
+
+    }
+}
+
+
+.search-bar {
+    margin: auto;
+    margin-top: 3%;
+    width: 85%;
+    position: relative;
+
+    .search-icon {
+        position: absolute;
+        z-index: 1;
+        top: 34%;
+        left: 4%;
+        padding-left: 1%;
+    }
+
+    .search-bar-inside {
+        background-color: $commercials-hover-color;
+        width: 80%;
+        height: 50px;
+        border-radius: 100px;
+        padding-left: 45px;
+    }
+}
+
+
+.right-commercials {
+    background-color: $commercials-hover-color;
+    width: 67%;
+    height: 340px;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-left: 8%;
+    margin-top: 5%;
+
+    .commercials {
+        padding: 4px 0;
+        width: 90%;
+        margin: 0 auto;
+
+        &:hover {
+            background-color: lighten($color: $commercials-hover-color, $amount: 20%);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .grey-headings-commercials {
+            font-size: 12px;
+            color: grey
+        }
+
+        .music-commercial {
+            display: flex;
+
+            .music-pic {
+                width: 75px;
+                margin-right: 10px;
+                border-radius: 15px;
+            }
+
+        }
+    }
+}
+
+
+.show-more {
+    padding: 1em 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    color: var(--brandColor);
+
+    &:hover {
+        background-color: $commercials-hover-color;
+    }
+}
+
+
+footer {
+    width: 58%;
+    margin-left: 8%;
+    padding-top: 1.5em;
+
+    .footer-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .3em;
+
+        .footer-list>li>a:hover {
+            border-bottom: 1px solid;
+        }
+    }
+}
