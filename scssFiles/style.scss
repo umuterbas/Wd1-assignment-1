@@ -1,0 +1,42 @@
+@import "./variables.scss";
+:root{
+    font-family: $font;
+}
+
+.entire-page{
+    display: flex;
+    background-color: $cBackGroundDark;
+    color: $cFontColorDark;
+}
+
+.left-part{
+    @include positionStick;
+    // position: sticky;
+    // top: 0;
+    height: 100vh;
+    flex-basis: 25%;
+    color: $cFontColorDark;
+}
+
+.center-part{
+    height: 100vh;
+    flex-basis: 45%;
+    overflow: scroll;
+    height: 200vh;
+    border-left: 1px solid $cBorderColor;
+    border-right: 1px solid $cBorderColor;
+}
+
+.right-part{
+    @include positionStick;
+    // position: sticky;
+    // top: 0;
+    height: 120vh;
+    flex-basis: 30%;
+    color: $cFontColor;
+}
+
+@mixin positionStick {
+    position: sticky;
+    top: 0;
+}
